@@ -3,40 +3,42 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="A page dedicated to the New York Mets">
-        <title>NEW YORK METS</title>
+        <link rel="icon" type="image/png" href="metslogo.png.png" sizes="16x16">
+        <title>New York Mets-Fan Page </title>
         <style>
-            html {
-                background-color: #004685;
-            }
-            
-            header {
-                color: #F7742C;
+            header.top {
+                color: #FF590F;
+                background-color: #002D72;
             }
             nav {
-                width: 75%;
-                margin: 0 auto;
-                color:  #F7742C;
+                color: #FF590F;
                 font-family: Georgia,"Times New Roman",serif;
             }
             footer {
-                color: #F7742C;
+                color: #FF590F;
                 font-family: Georgia;
             }
         </style>
         
     </head>
     <body>
-        <header>
+        <header class="top">
     <h1>New York Mets... Fan Page</h1>
      <img src="metslogo.png" width="100" height="100" draggable="false" alt="New York Mets Logo">
         </header>
+        <hr/>
         <header>
         <nav>
-            <b>HOME</b>
-            <a href="players.html" tittle="players page"><b>PLAYERS</b></a>
-            <b>NEWS</b>
-            <b>GAMES</b>
-            <a href ="http://www.mets.com" title="Official Mets page" ><img src="metscom.png" width="125" height="25" alt="Mets URL Logo"></a>
+            <table border="" align="center" bgcolor="silver">
+            <tr bgcolor="#002D72">    
+                <td><b>HOME</b></td>
+                <td><form action="players.html">
+                    <input type="submit" value="Players"/></form>
+                <td><b>NEWS</b></td>
+                <td><b>GAMES</b></td>
+                <td><a href ="http://www.mets.com" title="Official Mets page" target="_blank" ><img src="metscom.png" width="125" height="25" alt="Mets URL Logo"></a></td>
+                </tr>
+            </table>
         </nav>
         </header>
         <div>
