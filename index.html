@@ -1,132 +1,39 @@
-<HEAD>My First Page</HEAD>
-
-<style>
-
-
-dialog {  
-    width: 500px;  
-    background:#e8e8e8;
-    border: 1px solid #dadada;
-    font-family:sans-serif;
-    padding: 5px 10px 20px 20px;
-    }
-    
-    .modalDialog {
-	position: fixed;
-	font-family: Arial, Helvetica, sans-serif;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-	z-index: 99999;
-	opacity:0;
-	-webkit-transition: opacity 400ms ease-in;
-	-moz-transition: opacity 400ms ease-in;
-	transition: opacity 400ms ease-in;
-	pointer-events: none;
-    }
-    
-    .modalDialog:target {
-	opacity:1;
-	pointer-events: auto;
-}
-
-.modalDialog > div {
-	width: 400px;
-	position: relative;
-	margin: 10% auto;
-	padding: 5px 20px 13px 20px;
-	border-radius: 10px;
-	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
-}
-    
-    .close {
-	background: #606061;
-	color: #FFFFFF;
-	line-height: 25px;
-	position: absolute;
-	right: -12px;
-	text-align: center;
-	top: -10px;
-	width: 24px;
-	text-decoration: none;
-	font-weight: bold;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
-	-moz-box-shadow: 1px 1px 3px #000;
-	-webkit-box-shadow: 1px 1px 3px #000;
-	box-shadow: 1px 1px 3px #000;
-}
-
-.close:hover { background: #FF590F; }
-    
-    .button {
-        border-radius: 50%;
-    }
-
-</style>
-
-<h1>Using Headings</h1>
-<h2>More Heading</h2>
-<h3>...Even More</h3>
-
-<p lang="es"> Este parafo es en spanish probando el tag de lang.</p>
-
-<strong>This is a test to see if whatever you write without <em>tags</em> becomes a paragraph for default.</strong>
-
-<dialog id="window">    
-    <img src="../HTML/NY-Mets/images/metslogo.png">
-    <button id="exit">Close Dialog </button>
-</dialog>
-<button id="show"><img src="../HTML/NY-Mets/images/metscom.png"></button>
-
-<a href="#openModal"><img src="NY-Mets/4.png" border="2px" class="button"></a>
-<div id="openModal" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h2>Jacob deGrom #48</h2>
-		<img src="NY-Mets/images/deGrom_#48.png" alt="Jacob deGrom #48" width="200" height="300">
-        <h3>Stats</h3>
-        <table border="" align="center">
-                <tr>
-                    <td><b>YEAR</b></td>
-                    <td><b>IP</b></td>
-                    <td><b>W</b></td>
-                    <td><b>L</b></td>
-                    <td><b>ERA</b></td>
-                    <td><b>SO</b></td>
-                    <td><b>BB</b></td>
-                    <td><b>WHIP</b></td>
-                    </tr>
-                    <tr>
-                    <td>2016</td>
-                    <td>148.0</td>
-                    <td>7</td>
-                    <td>8</td>
-                    <td>3.04</td>
-                    <td>143</td>
-                    <td>36</td>
-                    <td>1.20</td>
-                    </tr>
-                </table>
-	</div>
-</div>
-
-<script>
-    
-(function() {  
-    var dialog = document.getElementById('window');  
-    document.getElementById('show').onclick = function() {  
-        dialog.show();  
-    };  
-    document.getElementById('exit').onclick = function() {  
-        dialog.close();  
-    };  
-})();
-
-</script>
+ <!DOCTYPE HTML>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="A page dedicated to the New York Mets">
+        <link rel="icon" type="image/png" href="metslogo.png" sizes="16x16">
+        <title>New York Mets-Fan Page </title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        </head>
+    <body>
+        <header class="top">
+    <h1>New York Mets... Fan Page<br/>
+            by Josue Perez</h1>
+     <img src="../images/metslogo.png" class="logo" width="100" height="100" draggable="false" alt="New York Mets Logo">
+        </header>
+        <header>
+        <nav role="navigation">
+            <table border="" align="center" bgcolor="silver">
+            <tr bgcolor="#002D72">    
+                <td><a href="index.html"><b>HOME</b></a></td>
+                <td><a href="players.html"><b>PLAYERS</b></a></td>
+                <td><b>NEWS</b></td>
+                <td><b>GAMES</b></td>
+                <td><a href ="http://www.mets.com" title="Official Mets page" target="_blank" ><img src="../images/metscom.png" width="125" height="25" alt="Mets URL Logo"></a></td>
+                </tr>
+            </table>
+        </nav>
+        </header>
+        <div class="history">
+            <h2>History</h2>
+            <p>After the 1957 season, the Brooklyn Dodgers and New York Giants relocated from New York to California to become the Los Angeles Dodgers and San Francisco Giants, respectively, leaving the largest city in the United States with no National League franchise and only one major league team in the American League (AL) - the New York Yankees. With the threat of a New York team in a third league, the National League expanded, adding the New York Mets after requests from William&nbsp;Shea. The new team took as its primary colors the blue of the Dodgers and the orange of the Giants as a symbolic return to National League baseball to New York. Blue and orange are also the colors of the New York City flag. The team took their name from a 19th-century club, the New York Metropolitans; that club was named after "Metropolis", a nickname for New York City.</p>
+            </div>
+        <hr/>
+        
+        <footer>
+            <p><em>New York Mets&trade;</em></p>
+        </footer>
+    </body>
+</html>
