@@ -1,11 +1,6 @@
   
 /*index Style*/
 
-html {
-                margin: 0;
-                padding: 0;
-                background-color: #DCDDDE;
-            }
   body{
                 background-color: #002D72;
             }
@@ -37,6 +32,10 @@ header.top {
                background-color: #DCDDDE;
                 padding: 5px 10px 20px 20px;
             }
+.players {
+    overflow-x: auto;
+    white-space: nowrap;
+}
 footer {
                 color: #FF590F;
                 font-family: Georgia;
