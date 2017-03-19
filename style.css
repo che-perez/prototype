@@ -23,6 +23,7 @@ header.top {
             }
             h2{
                 font-style: italic;
+                color: #FF590F
             }
     .history{
                 line-height: 1.6;
@@ -33,6 +34,7 @@ header.top {
                 padding: 5px 10px 20px 20px;
             }
 .players {
+    width: 90em;
     overflow-x: auto;
     white-space: nowrap;
 }
