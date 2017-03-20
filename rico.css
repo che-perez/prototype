@@ -1,11 +1,11 @@
 html {
   background-image:url(HTML/NY-Mets/images/pr2.jpg);
 }
-body {
+.content {
     line-height: 1.5;
     text-align: justify;
     margin: 60px auto;
-    width: 80%;
+    width: 70em;
     background-color: #fff;
     padding: 5px 10px 20px 20px;
 }
