@@ -1,23 +1,41 @@
 html {
   background-image:url(HTML/NY-Mets/images/pr2.jpg);
+    height: 100%;
+    background-size: cover;
 }
 .content {
     line-height: 1.5;
     text-align: justify;
     margin: 60px auto;
     width: 70em;
-    background-color: #fff;
     padding: 5px 10px 20px 20px;
+    background: -moz-linear-gradient(#fff, #ed174f, #004a8d);
+	background: -webkit-linear-gradient(#fff, purple, orange);
+	background: -o-linear-gradient(#fff, #ed174f, #004a8d);
+}
+.map {
+    margin: -600px 600px 300px;
+}
+.pitch {
+    margin: -531px 10px 0px 600px;
+    
+}
+.intro{
+     margin: 100px 600px 0px 22px;
 }
 img {
     display: block;
     margin: 0 auto;
+    width: auto;
+}
+button{
+    width: 370px;
 }
 a {
     text-decoration: none;
-    color: #004a8d;
+    color: yellowgreen;
     font-weight: 900;
     }
 a:hover{
-    color: #ed174f;
+    color: white;
 }
