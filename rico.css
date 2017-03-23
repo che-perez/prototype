@@ -10,8 +10,14 @@ html {
     width: 70em;
     padding: 5px 10px 20px 20px;
     background: -moz-linear-gradient(#fff, #ed174f, #004a8d);
-	background: -webkit-linear-gradient(#fff, purple, orange);
+	background: -webkit-linear-gradient(lightblue, royalblue, lightblue);
 	background: -o-linear-gradient(#fff, #ed174f, #004a8d);
+}
+footer{
+    display: block;
+    height: 5em;
+    margin-top: -5em;
+    background-color: #ed174f;
 }
 .map {
     margin: -600px 600px 300px;
@@ -33,7 +39,7 @@ button{
 }
 a {
     text-decoration: none;
-    color: yellowgreen;
+    color: darkred;
     font-weight: 900;
     }
 a:hover{
