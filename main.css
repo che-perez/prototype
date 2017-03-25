@@ -30,8 +30,7 @@ body {
   -moz-box-shadow: 0 0 0 13px #f0f0f0;
 }
 .thumb1{
-    border-radius: 50%;
-    padding: 5px;
+    border-radius: 0%;
     width: 150px;
     transition: all .2s ease-in-out;
 }

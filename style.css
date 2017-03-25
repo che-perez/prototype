@@ -34,10 +34,21 @@ header.top {
                 padding: 5px 10px 20px 20px;
             }
 
-.championships img{
+.championships .banner img{
     width: 175px;
     height: 175px;
 }
+
+.banner {
+    margin-top: -300px;
+}
+
+.nym{
+    width: 200px;
+    height: 200px;
+    margin: 200px 100px 0px 100px;
+}
+
 .players {
     width: 90em;
     overflow-x: auto;
