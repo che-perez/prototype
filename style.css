@@ -41,12 +41,13 @@ header.top {
 
 .banner {
     margin-top: -300px;
+    margin-left: 300px;
 }
 
 .nym{
     width: 200px;
     height: 200px;
-    margin: 200px 100px 0px 100px;
+    margin: 100px 200px 0px 50px;
 }
 
 .players {
@@ -65,30 +66,9 @@ footer {
 a:hover{
     color: white;
 }
-
-/*players Style*/
-
- 
-            dialog {  
-                    width: 600px;  
-                    background:#e8e8e8;
-                    border: 1px solid #dadada;
-                    font-family:sans-serif;
-                    padding: 5px 10px 20px 20px;
-            } 
-            
-          .btn{
-                background:url(../4.png) no-repeat;
-                cursor: pointer;
-                height: 100px;
-                width: 100px;
-                border-radius: 50%;
-            }
-            
-            .btn2{
-                background:url(../4.png) no-repeat;
-                cursor: pointer;
-                height: 100px;
-                width: 100px;
-                border-radius: 50%;
-            }
+.HOF p {
+    width: 180px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
