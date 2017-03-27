@@ -56,13 +56,13 @@ header.top {
     white-space: nowrap;
 }
 footer {
-                color: #FF590F;
-                font-family: Georgia;
-            }
+     color: #FF590F;
+  font-family: Georgia;
+     }
  a   {
-                text-decoration: none;
-                color: #FF590F
-                    }
+    text-decoration: none;
+    color: #FF590F
+     }
 a:hover{
     color: white;
 }
