@@ -13,6 +13,18 @@ html {
 	background: -webkit-linear-gradient(lightblue, royalblue, lightblue);
 	background: -o-linear-gradient(#fff, #ed174f, #004a8d);
 }
+.gallery img{
+    width: 300px;
+    display: block;
+    position: relative;
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.gallery img:hover{
+    transform: scale(2.5, 2.5);
+    opacity: 1;
+}
 footer{
     display: block;
     height: 10em;
@@ -29,7 +41,7 @@ footer{
 .intro{
      margin: 100px 600px 0px 22px;
 }
-img {
+.img {
     display: block;
     margin: 0 auto;
     width: auto;
