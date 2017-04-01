@@ -14,16 +14,16 @@ html {
 	background: -o-linear-gradient(#fff, #ed174f, #004a8d);
 }
 .gallery img{
-    width: 300px;
-    display: block;
-    position: relative;
-    opacity: 0.5;
+    width: 200px;
+    opacity: .5;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+    border-radius: 50%;
 }
 .gallery img:hover{
-    transform: scale(2.5, 2.5);
+    transform: scale(3.5, 3.5);
     opacity: 1;
+    border-radius: 0%;
 }
 footer{
     display: block;
