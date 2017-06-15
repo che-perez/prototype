@@ -19,11 +19,15 @@ html {
     transition: 0.3s ease-in-out;
     cursor: pointer;
     border-radius: 50%;
+    z-index: 0;
+    position: relative;
 }
 .gallery img:hover{
     transform: scale(3.5, 3.5);
     opacity: 1;
     border-radius: 0%;
+    position: absolute;
+    z-index: 999;
 }
 footer{
     display: block;
